@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div_color1 {
+    padding: 21%;
+    /*tomado de google, cambia colores de fondo*/
+    font-weight: bold;
+    background: linear-gradient(150deg, #ad0707,  #f10271, #050200);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+/*Tomado de google cambia colores de fondo */
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1{
+
+    text-align: center;
+    color: white;   
+}
+
+button {
+    align-content: flex-end;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    margin: 0px -100px;
+    bottom: 80%;
+    left: 50%;
+  
+    color: rgb(0, 0, 0);
+}
